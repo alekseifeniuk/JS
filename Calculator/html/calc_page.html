@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" type="text/css" href="/styles/calc_styles.css">
+  </head>
+  
+<body>
+  
+  <table>
+
+    <tr>
+      <td colspan="4"><input id="inputExp" /></td>
+      <td><button id="roundBut" onclick="clearData()">clr</button></td>
+    </tr>
+
+    <tr>
+      <td><button id="roundBut" onclick="addToInput('1')">1</button></td>
+      <td><button id="roundBut" onclick="addToInput('2')">2</button></td>
+      <td><button id="roundBut" onclick="addToInput('3')">3</button></td>
+      <td><button id="roundBut" onclick="addOperator('+')">+</button></td>
+      <td><button id="roundBut">-</button></td>
+    </tr>
+
+    <tr>
+      <td><button id="roundBut" onclick="addToInput('4')">4</button></td>
+      <td><button id="roundBut" onclick="addToInput('5')">5</button></td>
+      <td><button id="roundBut" onclick="addToInput('6')">6</button></td>
+      <td><button id="roundBut">x</button></td>
+      <td><button id="roundBut">/</button></td>
+    </tr>
+
+    <tr>
+      <td><button id="roundBut" onclick="addToInput('7')">7</button></td>
+      <td><button id="roundBut" onclick="addToInput('8')">8</button></td>
+      <td><button id="roundBut" onclick="addToInput('9')">9</button></td>
+      <td><button id="roundBut">sqr</button></td>
+      <td><button id="roundBut">deg</button></td>
+    </tr>
+
+    <tr>
+      <td><button id="roundBut" onclick="addToInput('0')">0</button></td>
+      <td><button id="roundBut" onclick="addToInput(this)">,</button></td>
+      <td colspan="3"><button id="rectBut">=</button></td>
+    </tr>
+
+  </table>
+
+  <script type="text/javascript" src="/scripts/calc_script.js"></script> 
+
+</body>
+</html>
