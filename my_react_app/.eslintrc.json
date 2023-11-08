@@ -11,6 +11,8 @@
     "rules": {
         "react/react-in-jsx-scope": 0,
         "react/jsx-filename-extension": 0,
-        "jsx-a11y/control-has-associated-label": 0
+        "jsx-a11y/control-has-associated-label": 0,
+        "no-unused-vars": 0,
+        "default-case": 0
     }
 }
